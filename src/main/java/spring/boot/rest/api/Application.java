@@ -12,7 +12,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication
 @EntityScan(basePackages = {"spring.boot.rest.model"})
-@ComponentScan(basePackages = {"spring.boot.rest..*"})
+@ComponentScan(basePackages = {"spring.boot.rest.*"})
 @EnableJpaRepositories(basePackages = {"spring.boot.rest.repositoy"})
 @EnableTransactionManagement
 @EnableWebMvc
